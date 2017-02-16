@@ -8,4 +8,4 @@ npm install
 
 ## Show Example
 
-## npm test
+npm test
