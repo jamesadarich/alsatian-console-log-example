@@ -1,0 +1,24 @@
+{
+  "name": "alsatian-console-log-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc",
+    "test": "alsatian \"**/*.spec.js\" --tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrichford/alsatian-console-log-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesrichford/alsatian-console-log-example/issues"
+  },
+  "homepage": "https://github.com/jamesrichford/alsatian-console-log-example#readme",
+  "dependencies": {
+    "alsatian": "^1.2.0",
+    "typescript": "^2.1.6"
+  }
+}

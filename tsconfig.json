@@ -1,0 +1,32 @@
+{
+   "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "declaration": true,
+      "sourceMap": true,
+      "preserveConstEnums": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "lib": [ "es5", "es2015.promise" ]
+   },
+   "buildOnSave": false,
+   "compileOnSave": true,
+   "exclude": [
+      "./core/**/*.d.ts",
+      "./cli/**/*.d.ts",
+      "./test/**/*.d.ts",
+      "./scripts/**/*.d.ts",
+      "node_modules"
+   ],
+   "filesGlob": [
+      "./cli/**/*.ts",
+      "./core/**/*.ts",
+      "./test/**/*.ts",
+      "./scripts/**/*.ts"
+   ],
+   "atom": {
+      "rewriteTsconfig": false
+   }
+}
